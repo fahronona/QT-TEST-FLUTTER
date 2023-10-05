@@ -1,16 +1,16 @@
-# qt_test
+## Flutter Mobile test for PT Qtasnim Digital Teknologi
 
-A new Flutter project.
+screenshot aplikasi
 
-## Getting Started
+<img width="291" alt="Screenshot 2023-10-05 at 18 54 03" src="https://github.com/fahronona/QT-TEST-FLUTTER/assets/43464944/49e8a167-55ee-45aa-b6fe-d94f8078a74c">
+<img width="291" alt="Screenshot 2023-10-05 at 18 54 21" src="https://github.com/fahronona/QT-TEST-FLUTTER/assets/43464944/cc52cfe4-3838-440b-9674-11f97bb2a486">
+<br>
+<br>
+<img width="291" alt="Screenshot 2023-10-05 at 18 53 55" src="https://github.com/fahronona/QT-TEST-FLUTTER/assets/43464944/ab32f424-4564-4aa6-b2eb-2607305589f4">
+<img width="291" alt="Screenshot 2023-10-05 at 18 54 15" src="https://github.com/fahronona/QT-TEST-FLUTTER/assets/43464944/dbc21b25-87cf-40a7-8a65-e76c537a0af9">
+<br>
+<br>
 
-This project is a starting point for a Flutter application.
+## untuk vidio demo dapat dilihat di folder "demo"
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
