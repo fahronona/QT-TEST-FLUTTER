@@ -82,6 +82,10 @@ class ServiceData {
       return e.toString();
     }
   }
-}
 
-final produkProvider = Provider<ServiceData>((ref) => ServiceData());
+  Stream<ProdukModel> getDataStream(String name) async* {
+    while (true) {
+      yield await getDataProduk(name);
+    }
+  }
+}
