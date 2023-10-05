@@ -43,7 +43,8 @@ class HomePage extends ConsumerWidget {
                                         MaterialPageRoute(
                                             builder: (context) =>
                                                 const AddPage())).then((value) {
-                                      ref.refresh(produkDataProvider(str));
+                                      ref.read(stateString.notifier).state = "";
+                                      ref.refresh(produkDataProvider(""));
                                     });
                                   },
                                   // style: ElevatedButton.styleFrom(
@@ -109,6 +110,10 @@ class HomePage extends ConsumerWidget {
                                                               TanggalTransaksi:
                                                                   data.tanggalTransaksi!,
                                                             ))).then((value) {
+                                                  ref
+                                                      .read(
+                                                          stateString.notifier)
+                                                      .state = "";
                                                   ref.refresh(
                                                       produkDataProvider(str));
                                                 });
@@ -124,8 +129,12 @@ class HomePage extends ConsumerWidget {
                                                         data.id.toString())
                                                     .then((value) {
                                                   // ignore: unused_result
+                                                  ref
+                                                      .read(
+                                                          stateString.notifier)
+                                                      .state = "";
                                                   ref.refresh(
-                                                      produkDataProvider(str));
+                                                      produkDataProvider(""));
                                                 });
                                               },
                                               child: const Text(
