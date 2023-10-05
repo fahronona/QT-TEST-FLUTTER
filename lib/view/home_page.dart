@@ -43,7 +43,7 @@ class HomePage extends ConsumerWidget {
                                         MaterialPageRoute(
                                             builder: (context) =>
                                                 const AddPage())).then((value) {
-                                      ref.refresh(produkDataProvider(""));
+                                      ref.refresh(produkDataProvider(str));
                                     });
                                   },
                                   // style: ElevatedButton.styleFrom(
@@ -110,7 +110,7 @@ class HomePage extends ConsumerWidget {
                                                                   data.tanggalTransaksi!,
                                                             ))).then((value) {
                                                   ref.refresh(
-                                                      produkDataProvider(""));
+                                                      produkDataProvider(str));
                                                 });
                                               },
                                               child: const Text(
@@ -120,11 +120,12 @@ class HomePage extends ConsumerWidget {
                                               onPressed: () {
                                                 ref
                                                     .read(produkProvider)
-                                                    .deleteProduk("0")
+                                                    .deleteProduk(
+                                                        data.id.toString())
                                                     .then((value) {
                                                   // ignore: unused_result
                                                   ref.refresh(
-                                                      produkDataProvider(""));
+                                                      produkDataProvider(str));
                                                 });
                                               },
                                               child: const Text(
